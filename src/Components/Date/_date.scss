@@ -1,0 +1,19 @@
+.date {
+  width: 100%;
+  background-color: rgb(246, 246, 246);
+  height: 200px;
+  overflow: hidden;
+  overflow-y: scroll;
+  border-radius: 20px;
+  padding: 20px;
+
+  &__list {
+    list-style-type: none;
+  }
+}
+
+input {
+  padding: 5px;
+  outline: none;
+  border: none;
+}
